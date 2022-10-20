@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>INSAN CENDEKIA</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+header {background: img src="cover.png" width="150" height="100";}
+    
+nav {	float: left;
+  	width: 30%;
+  	background: #FFE74C;
+ 	padding: 20px;}
+
+nav ul {	list-style-type: none;
+  		padding: 0;}
+
+article {
+  float: left;
+  padding: 10px;
+  width: 70%;
+  font-family: times new roman;
+  	font-size: 25px;
+	text-align: justify}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;}
+
+footer {
+  background-color: #FFE74C;
+  padding: 10px;
+  text-align: center;
+  color: 070A0D;}
+
+body {background-color: #7CA2CB;}
+
+h2 {	color: #070A0D; 
+	text-align: center; 	
+	font-family: times new roman; 
+	font-size: 40px}
+
+</style>
+</head>
+<body>
+<header>
+  <h1>MAN Insan Cendekia Serpong
+  <br> Boarding School </br> </h1>
+</header>
+    <h2>KONTAK</h2>
+<section>
+  <nav>
+    <ul>
+      <img src="lapangan.gif" width="130" height="100" >
+      <li><a href="index.html"> Home</a></li>
+      <li><a href="fasilitas.html"> Fasilitas</a></li>
+      <li><a href="Foto.html"> Dokumentasi</a></li>
+      <li><a href="kontak.html"> Kontak</a></li>
+	<video width="130" height="100" controls>
+ 	 <source src="marsmadrasah.mp4" type="video/mp4">
+	</video>
+    </ul>
+  </nav>
+  <article>
+	<p> Nama: Fatati Nadia Fasya Arifin </p>
+	<p> Kelas: XII MIPA 2 </p>
+	<p> Nomor: 3200004</p>
+	<p> Alamat Email: kalasenja@fasyavorite.my.id</p>
+	<p> Alamat Website: fasyavorite.my.id</p>
+	<p> Hobi: Membaca, menonton, mendengarkan musik</p>
+</article>
+</section>
+
+<footer>
+  <p>created by fasya</p>
+</footer>
+
+</body>
+</html>

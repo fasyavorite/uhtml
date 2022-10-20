@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>INSAN CENDEKIA</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+nav {	float: left;
+  	width: 30%;
+  	background: #FFE74C;
+ 	padding: 15px;}
+
+nav ul {	list-style-type: none;
+  		padding: 0;}
+
+article {
+  float: left;
+  padding: 10px;
+  width: 70%;
+  font-family: times new roman;
+  	font-size: 17px;
+	text-align: justify}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;}
+
+footer {
+  background-color: #FFE74C;
+  padding: 10px;
+  text-align: center;
+  color: 070A0D;}
+
+body {background-color: #7CA2CB;}
+
+h2 {	color: #070A0D; 
+	text-align: center; 	
+	font-family: times new roman; 
+	font-size: 35px;
+    column-span: all}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #7CA2CB;
+  padding: 10px;
+}
+.grid-item {
+  background-color: #7CA2CB;
+  border: 1px solid #7CA2CB;
+  padding: 0px;
+  font-size: 17px;
+  text-align: center;
+
+</style>
+</head>
+<body>
+<header>
+<img src="cover.png" width="1250" height="100";>
+    <h2>FASILITAS INSAN CENDEKIA</h2>
+<section>
+  <nav>
+    <ul>
+      <img src="lapangan.gif" width="150" height="100" >
+      <li><a href="index.html"> Home</a></li>
+      <li><a href="fasilitas.html"> Fasilitas</a></li>
+      <li><a href="Foto.html"> Dokumentasi</a></li>
+      <li><a href="kontak.html"> Kontak</a></li>
+	<video width="150" height="100" controls>
+ 	 <source src="marsmadrasah.mp4" type="video/mp4">
+	</video>
+    </ul>
+  </nav>
+ <div class="grid-container">
+  <div class="grid-item">  <article>
+    <p><b><u> Gedung Pendidikan 3 lantai </u></b></p>
+    <ul>
+ 	 <li> 21 ruang kelas </li>
+ 	 <li> Laboratorium Bahasa </li>
+     <li> Laboratorium Biologi </li>
+     <li> Laboratorium Fisika </li>
+     <li> Laboratorium Kimia </li>
+     <li> Laboratorium Komputer </li>
+     <li> Ruang Bimbingan dan Konseling </li>
+     <li> Ruang Perpustakaan </li>
+     <li> Ruang Guru </li>
+	</ul>  
+    <p><b><u> Gedung Asrama </u></b></p>
+        <ul>
+ 	 <li> Asrama F Putra - 2 Lantai </li>
+     <li> Asrama G Guru - 2 Lantai </li>
+     <li> Asrama H Putri - 2 Lantai </li>
+     <li> Asrama I Putra - 3 Lantai </li>
+     <li> Asrama J Putri - 3 Lantai </li>
+     <li> Asrama Z Putri - 3 Lantai </li>
+	</ul>  
+</article>
+</div>
+  <div class="grid-item"> <article>
+    <p><b><u> Masjid Ulil Albab 2 lantai </u></b></p>
+    <p><b><u> Gedung Serbaguna </u></b></p>
+            <ul>
+ 	 <li> kapasitas 500 orang </li>
+	</ul> 
+    <p><b><u> Gedung Administrasi 2 lantai </u></b></p>
+    <p><b><u> Poliklinik </u></b></p>
+    <p><b><u> Kantin </u></b></p>
+    <p><b><u> Koperasi </u></b></p>
+    <p><b><u> Sarana Olahraga </u></b></p>
+            <ul>
+ 	 <li> Lapangan Sepak Bola </li>
+     <li> Lapangan Basket </li>
+     <li> Lapangan Voli </li>
+     <li> Lapangan Badminton </li>
+     <li> Meja Pingpong </li>
+	</ul> 
+    <p><b><u> Greenhouse </u></b></p>
+  </article></div>
+</div>
+</section>
+
+<footer>
+  <p>created by fasya</p>
+</footer>
+
+</body>
+</html>
